@@ -434,6 +434,20 @@ a{
 
 
 /* Moblie Responsive */
+@media screen and (max-width: 1400px){
+    .carousel{
+        height: 370px;
+    }
+    .select-type h1 {
+        font-size: 21px;
+    }
+    .select-type p {
+        font-size: 16px;
+        margin-top: -15px;
+        margin-bottom: 0.5em;
+    }
+
+}
 @media screen and (max-width: 1200px){
     .navbar{
         margin: 0px;
@@ -444,7 +458,25 @@ a{
         display: flex;
         justify-content: start;
     }
-
+    
+    /* search tire */
+    .carousel{
+        height: 315px;
+    }
+    .select-type h1 {
+        font-size: 18px;
+    }
+    .select-type p {
+        font-size: 16px;
+        margin-top: -15px;
+        margin-bottom: 0em;
+    }
+    .select-type{
+        top: 43%;
+    }
+    .sl-type-button img{
+        width: 80px;
+    }
     /* tips */
     .tips-regis{
         display: flex;
@@ -467,5 +499,88 @@ a{
     }
 }
 @media screen and (max-width: 500px){
+    .container.text-center .row {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container.text-center .col {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .img-logo{
+        width: 50%;
+    }
+    .link-contact-menu{
+        padding: 30px 20px;
+        margin-bottom: -30px;
+        justify-content: center;
+    }
+
+    .news-container{
+        width: 383px;
+    }
+
+    .news-content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card img{
+        width: 300px;
+        margin-left: -4rem;
+    }
+    .card-body p{
+        width: 300px;
+        margin-left: -4rem;
+    }
+
+    .tips-content, .tips-regis, .index-call {
+        display: inline-block;
+        width: 100%;
+    }
     
+    .select-type h1 {
+        font-size: 24px;
+    }
+    .select-type p {
+        font-size: 18px;
+        margin-top: -10px;
+        margin-bottom: 0.5em;
+    }
+    .select-type{
+        top: 42%;
+    }
+    .sl-type-button img{
+        width: 100px;
+    }
+    /* tips */
+    .tips-regis{
+        display: flex;
+        justify-content: center;
+    }
+    .tips-content{
+        margin-top: 1em;
+    }
+    .tips-content::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 20;
+        width: 0vh;
+        height: 100%;
+        background-color: white;
+        z-index: 0;
+    }
+    .tips-comment p{
+        font-size: 21px;
+        padding-bottom: 27.5px;
+    }
+    
+
 }

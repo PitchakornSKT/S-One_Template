@@ -189,10 +189,10 @@ $(document).ready(function () {
 
     $(".info-bullet .bullet").not(".active").hover(
         function () {
-            $(this).attr("src", icons.bullet[1]); // Hover: bullet1
+            $(this).attr("src", icons.bullet[1]); 
         },
         function () {
-            $(this).attr("src", icons.bullet[0]); // Leave: bullet2
+            $(this).attr("src", icons.bullet[0]); 
         }
     );
 });

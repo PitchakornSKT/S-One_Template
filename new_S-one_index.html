@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-ONE Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style_Sone.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="top_menu bg-white p-1 shadow-md">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mt-0">
+                    <a href="index.html">
+                        <img src="images/SOne_index_logo.png" alt="S-ONE Logo" class="img-logo">
+                    </a>
+                </div>
+                <div class="d-flex flex-column align-items-end mt-3">
+                    <div class="lang d-flex align-items-center mb-2">
+                        <img src="images/SOne_index_iconthai.jpg" alt="Thai" class="eng me-2" style="height: 20px;">
+                        <img src="images/SOne_index_iconeng2.jpg" alt="English" class="thai" style="height: 20px;">
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><img src="images/SOne_Mobile_search.png" alt="searchButton"></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="link-contact-menu d-flex justify-content-end mt-0">
+                <a href="#" class="text-decoration-none nav-link-custom">About S-ONE</a>
+                <a href="#" class="text-decoration-none nav-link-custom">Job Opportunity</a>
+                <a href="#" class="text-decoration-none nav-link-custom">Contact Us</a>
+                <a href="#" class="text-decoration-none">Site Map</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+      <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active " aria-current="page" href="#"> <img src="images/SOne_index_menu02.png" alt="" class="me-1">Promotions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="images/SOne_index_menu01.png" alt="" class="me-1">News & Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="images/SOne_index_menu01.png" alt="" class="me-1">Safety Tips</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" ><img src="images/SOne_index_menu01.png" alt="" class="me-1">FAQS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img src="images/SOne_index_menu01.png" alt="" class="me-1">Location</a>
+                </li>
+              </ul>
+              <div class="social"> 
+                  <a href=""><img src="images/SOne_index_btfacebook.png" alt="Facebook"></a>
+                  <a href=""><img src="images/SOne_index_bttwitter.png" alt="Twitter"></a>
+                  <a href=""><img src="images/SOne_index_btyoutube.png" alt="Youtube"></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <!-- Content -->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="search-tire-container">
+                    <div class="search-type-header">ค้นหายาง</div>
+                    <div class="search-tire-content">
+                        <div class="exam-img">
+                            <img src="images/SOne_index_bg_searchtype.jpg">
+                        </div>
+                        <div class="select-type">
+                            <h1 class="sl-type-name">หน้ายาง</h1>
+                            <p>ความกว้าง (มม.)</p>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>--กรุณาเลือก--</option>
+                            </select>
+                            <h1 class="sl-type-name">ซีรี่ย์</h1>
+                            <p>อัตราส่วนความสูงแก้มยาง (%)</p>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>--กรุณาเลือก--</option>
+                            </select>
+                            <h1 class="sl-type-name">กะทะล้อ</h1>
+                            <p>เส้นผ่าศูนย์กลาง (นิ้ว)</p>
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>--กรุณาเลือก--</option>
+                            </select>
+                            <div class="sl-type-button"><a href="">
+                              <img src="images/SOne_index_search.png" alt="button">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/SOne_index_banner.jpg"  alt="banner">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner_promotion_01.jpg" alt="banner">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/banner_promotion_02.jpg" alt="banner">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    <!-- Content Menu -->
+    <div class="container text-center">
+      <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-tire.jpg" alt="tire" class="img-fluid"></a>
+        </div>
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-break.jpg" alt="break" class="img-fluid"></a>
+        </div>
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-battery.jpg" alt="battery" class="img-fluid"></a>
+        </div>
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-chokeup.jpg" alt="chokeup" class="img-fluid"></a>
+        </div>
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-oil.jpg" alt="oil" class="img-fluid"></a>
+        </div>
+        <div class="col-auto">
+          <a href=""><img src="images/SOne_index_bt-guarantee.jpg" alt="guarantee" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+
+     <!-- Content Section -->
+     <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="find-fact-containter">
+              <div class="find-f-header">กรุณาเลือกประเภทการค้นหาสินค้า</div>
+              <div class="find-fact-content">
+                <div class="sl-find-f">
+                  <h2>ยี่ห้อรถ</h2>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>--กรุณาเลือก--</option>
+                  </select>
+                </div>
+                <div class="sl-find-f">
+                  <h2>รุ่น/ปีรถ</h2>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>--กรุณาเลือก--</option>
+                  </select>
+                </div>
+                <div class="sl-find-f">
+                  <h2>ขนาดยาง</h2>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>--กรุณาเลือก--</option>
+                  </select>
+                </div>
+                <p>หมายเหตุ<br>กรุณาเลือกข้อมูลให้ครบถ้วนก่อนทำการค้นหา</p>
+                <div class="find-fact-button"><a href="#">
+                  <img src="images/SOne_index_search.png" alt="button">
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="news-container">
+              <div class="info-header">
+                <h2>News & Events</h2>
+                <div class="info-bullet">
+                  <img src="images/SOne_index_bullet1.png" class="bullet active">
+                  <img src="images/SOne_index_bullet2.png" class="bullet">
+                  <img src="images/SOne_index_bullet2.png" class="bullet">
+                </div>
+              </div>
+              <div class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="news-content">
+                        <a href="#">
+                          <div class="card" style="width: 11rem;">
+                              <img src="images/SOne_index_pic3.jpg" class="card-img-top" alt="...">
+                              <div class="date-overlay">22 <br>FEB <br>2025</div>
+                              <div class="card-body">
+                                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, molestias?</p>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="news-content">
+                        <a href="#">
+                          <div class="card" style="width: 11rem;">
+                              <img src="images/SOne_index_pic3.jpg" class="card-img-top" alt="...">
+                              <div class="date-overlay">22 <br>FEB <br>2025</div>
+                              <div class="card-body">
+                                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, molestias?</p>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="news-content">
+                        <a href="#">
+                          <div class="card" style="width: 11rem;">
+                              <img src="images/SOne_index_pic3.jpg" class="card-img-top" alt="...">
+                              <div class="date-overlay">22 <br>FEB <br>2025</div>
+                              <div class="card-body">
+                                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, molestias?</p>
+                              </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="tips-content">
+              <img src="images/SOne_index_tips1.png">
+              <div class="tips-comment">
+                <h2><span>Safe Tips</span></h2>
+                <img class="pic66" src="images/SOne_index_pic66.png">
+                <p>ควรเติมน้ำมันตอนเช้า ขณะที่อุณหภูมิบนพื้น ดินยังเย็นอยู่</p>
+                <img class="pic99" src="images/SOne_index_pic99.png">
+              </div>
+            </div>
+            <div class="tips-regis">
+              <h1>สมัครรับข่าวสาร</h1>
+              <div class="d-flex">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="กรุณาใส่อีเมล">
+                <button class="btn btn-outline-success" type="submit">Go</button>
+              </div>
+            </div>
+            <img class="index-call" src="images/SOne_index_call.png" alt="">
+          </div>
+        </div>
+      </div>
+
+     <!-- Footer -->
+     <div class="footer-section container text-center">
+      <div class=" row">
+        <div class="col-2">
+          <div class="footer-logo">
+            <img src="images/SOne_index_logos.png" alt="">
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="licence">
+            <p>Copyright &copy; 2025</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery Script -->
+    <script src="script/script.js"></script>
+
+</body>
+</html>
